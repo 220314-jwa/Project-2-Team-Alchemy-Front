@@ -12,9 +12,9 @@ import com.revature.sierra.alchemy.MVC.Models.Reviews;
 
 @Service
 public class ReviewServiceImpl implements ReviewService {
+	
+	private ReviewsRepository reviewrepo;
 
-	@Autowired
-	public ReviewsRepository reviewrepo;
 	
 	public ReviewServiceImpl() {
 	}
