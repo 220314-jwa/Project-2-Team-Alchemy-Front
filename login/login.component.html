@@ -1,0 +1,12 @@
+<div class="login-con">
+    
+<h1>Welcome Back</h1>   
+    <input [(ngModel)]="credentials.username" placeholder="username" class="validate" id="username">
+<br>
+    <input [(ngModel)]="credentials.password" placeholder="password" class="validate" id="password">
+<br>
+<button (click)="logIn()" type="button" class="btnLogin" id="btnLogIn" >Login</button>
+<br>
+<p>Don't have an account? <a routerLink="/signUp">Sign up</a></p>
+</div>
+<router-outlet></router-outlet>

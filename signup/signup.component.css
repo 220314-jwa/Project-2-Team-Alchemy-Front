@@ -1,0 +1,75 @@
+.signUp-container{
+    width: 400px;
+    height: 560px;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    
+    padding: 20px;
+    border-radius: 20px;
+    background: #48120e;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow:  38px 38px 56px #48120E, 
+                -25px -25px 38px #48120E;
+}  
+
+h3{
+    padding-bottom: 20px;
+}
+
+.input{
+    border: none;
+    margin-bottom: 15px;
+    color: #000;
+    background: #fff;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 5px rgb(70, 69, 69), 
+            inset -5px -5px 5px #000;
+    outline: none;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+
+.btnSubmit {
+margin-top: 10px;
+padding: 10px 30px;
+width:40%;
+border-radius: 40px;
+border: none;
+color: #fff;
+font-size: 20px;
+font-weight: 500;
+background: #6f120c;
+box-shadow:  8px 8px 15px #202020, 
+             -8px -8px 15px #2c2c2c;
+transition: box-shadow .35s ease !important;
+outline: none;
+}
+
+.btnSubmit:hover{
+    background-color: #e7cc8f;
+    color: #202020 ;
+}
+
+.btnSubmit:active{
+    background-color: #e7cc8f;
+    transform: translateY(4px);
+}
+
+p{
+    color: #bfc0c0;
+    padding: 20px;
+    }
+a {
+    font-weight: 600;
+    color: #fff;
+    
+    }
+a:hover{
+    color: #2C9AB7 ;
+} 
